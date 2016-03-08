@@ -1,0 +1,9 @@
+operation;strategy;blockSize;fileSizeInBytes;durationInMs
+Writer;BlockByBlockWithBufferedStream;10485760;500;31
+Writer;BlockByBlockWithBufferedStream;10485760;50;111
+Writer;BlockByBlockWithBufferedStream;10485760;5;207
+Writer;ByteByByteWithBufferedStream;10485760;0;312
+Writer;BlockByBlockWithoutBufferedStream;10485760;500;108
+Writer;BlockByBlockWithoutBufferedStream;10485760;50;758
+Writer;BlockByBlockWithoutBufferedStream;10485760;5;6444
+Writer;ByteByByteWithoutBufferedStream;10485760;0;29872
